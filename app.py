@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Cargar los datos
-df_madre = pd.read_excel('ruta_del_archivo/roca_madre.xlsx')  # Cambia la ruta del archivo
-df_reservorio = pd.read_excel('ruta_del_archivo/roca_reservorio.xlsx')  # Cambia la ruta del archivo
-df_sello = pd.read_excel('ruta_del_archivo/roca_sello.xlsx')  # Cambia la ruta del archivo
+df_madre = pd.read_excel('roca_madre.xlsx')  # Cambia la ruta del archivo
+df_reservorio = pd.read_excel('roca_reservorio.xlsx')  # Cambia la ruta del archivo
+df_sello = pd.read_excel('roca_sello.xlsx')  # Cambia la ruta del archivo
 
 # Limpiar los datos
 df_madre_clean = df_madre[['Propiedades', 'Permeabilidad (md)', 'Densidad (g/cm^3)', 'Arcilla (%)', 'Materia Organica (%)']]
